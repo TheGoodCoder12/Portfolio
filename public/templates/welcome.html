@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/TheGoodCoder12">My Github</a></li>
+                <!-- <li><img src="../assets/dark-mode.svg" alt="dark-mode-icon"></li> -->
+                <!-- Wrote the above line to implement dark and light mode, since my mid sems are nearby had only an hour to spare, so can't do it :( -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm Satyam Shukla</h1>
+            <p>Coding Enthusiast | Engineering Student</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project" id="one">
+                <div class="title">
+                    <!-- <img src="../assets/flymusica.svg" alt="Project 1"> -->
+                    <h3>FlyMusica</h3>
+                </div>
+                <p>A free client side music player webapp, in which you can feed your own songs. <br>Technologies used:
+                    HTML, CSS, JS</p>
+            </div>
+            <div class="project" id="two">
+                <div class="title">
+                    <!-- <img src="../assets/detective.svg" alt="Project 2"> -->
+                    <h3>The-Mind-Map</h3>
+                </div>
+                <p>Made on the theme of Sherlock Holmes and helping him in his investigations. <br>Technologies used:
+                    HTML, CSS, Python, JavaScript</p>
+            </div>
+            <div class="project" id="three">
+                <div class="title">
+                    <!-- <img src="../assets/clothing.svg" alt="Project 3"> -->
+                    <h3>TryDrobe</h3>
+                </div>
+                <p>A webapp made to allow users to try different cloth combinations and styles. <br>Technologies used:
+                    HTML, CSS, JS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Follow me on <a href="https://linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a></p>
+    </footer>
+
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
