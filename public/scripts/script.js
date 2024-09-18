@@ -2,9 +2,16 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     event.preventDefault();
     alert('Message Sent!');
   });
-  const link = document.createElement('a');
-// link.href = 'https://www.example.com';
-// link.textContent = 'Visit Example.com';
-// link.target = '_blank';
-// document.getElementById('linkContainer').appendChild(link);
-// got only 1 hr to made this project due to my midsems i was trying to link my projects here
+const project1 = document.getElementById('one');
+const project2 = document.getElementById('two');
+const project3 = document.getElementById('three');
+
+project1.addEventListener('click', () => {
+    window.open('https://github.com/TheGoodCoder12/FlyMusica.git', '_blank');
+});
+project2.addEventListener('click', () => {
+    window.open('https://github.com/TheGoodCoder12/The-Mind-Map.git', '_blank');
+});
+project3.addEventListener('click', () => {
+    window.open('https://github.com/TheGoodCoder12/TryDrobe.git', '_blank');
+});
