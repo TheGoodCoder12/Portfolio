@@ -127,13 +127,14 @@ h2 {
   }
   
   form input, form textarea {
-    width: 100%;
+    width: 92%;
     padding: 12px;
     background-color: #333;
     border: 1px solid #444;
     color: #FFF;
     margin: 10px 0;
     border-radius: 5px;
+    max-width: 92%;
   }
   
   form button {
